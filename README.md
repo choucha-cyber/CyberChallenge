@@ -1,45 +1,5 @@
 # CyberChallenge
-projet d'application web/mobile de challenges en cybersécurité (pour les cadettes de la cyber)
-# Cyber Challenge - Spring Boot Microservice
-
-Bienvenue dans **Cyber Challenge**, un projet ludique conçu pour mettre vos compétences en sécurité informatique à l'épreuve. Ce projet utilise **Spring Boot** pour créer une application microservice interactive qui propose des défis de cryptographie et de cybersécurité.
-
----
-
-## 🚀 Fonctionnalités
-
-- Génération d'un message chiffré.
-- Vérification des soumissions de drapeaux (*flags*).
-- Gestion des indices pour aider les participants.
-- Design attractif avec un style CSS personnalisé.
-- Compatible avec des bases de données comme H2 pour stocker les données utilisateur.
-
----
-
-## 📂 Structure du projet
-
-CyberChallenge/ ├── src/ │ ├── main/ │ │ ├── java/com/cyber/ │ │ │ ├── controller/ # Contrôleurs du backend │ │ │ ├── CyberChallengeApplication.java # Point d'entrée de l'application │ │ ├── resources/ │ │ │ ├── static/ # Fichiers CSS/JS │ │ │ │ ├── styles.css # Fichier CSS principal │ │ │ ├── templates/ # (Si applicable) Modèles HTML pour Thymeleaf │ │ │ ├── application.properties # Configuration Spring Boot ├── pom.xml # Fichier de configuration Maven └── README.md # Documentation du projet
-
-
----
-
-## 🛠️ Prérequis
-
-- **Java 17** ou version ultérieure.
-- **Maven** pour gérer les dépendances.
-- Un IDE comme **Spring Tool Suite (STS)**, **IntelliJ IDEA**, ou **Eclipse**.
-
----
-
-## ▶️ Lancer l'application
-
-1. Clonez ce dépôt :
-   ```bash
-   git clone https://github.com/<votre-utilisateur>/CyberChallenge.git
-   cd CyberChallenge
-
-2. 
-Voici un exemple structuré pour un fichier README.md que vous pouvez utiliser pour votre projet Spring Boot Cyber Challenge sur GitHub.
+projet d'application web/mobile de challenges en cybersécurité crée par Hanaé Lopez et Mimouni Aïcha (soutenu par le Pôle d'Excellence Cyber pour les Cadettes de la Cyber https://www.pole-excellence-cyber.org)
 
 # Cyber Challenge - Spring Boot Microservice
 
@@ -59,7 +19,16 @@ Bienvenue dans **Cyber Challenge**, un projet ludique conçu pour mettre vos com
 
 ## 📂 Structure du projet
 
-CyberChallenge/ ├── src/ │ ├── main/ │ │ ├── java/com/cyber/ │ │ │ ├── controller/ # Contrôleurs du backend │ │ │ ├── CyberChallengeApplication.java # Point d'entrée de l'application │ │ ├── resources/ │ │ │ ├── static/ # Fichiers CSS/JS │ │ │ │ ├── styles.css # Fichier CSS principal │ │ │ ├── templates/ # (Si applicable) Modèles HTML pour Thymeleaf │ │ │ ├── application.properties # Configuration Spring Boot ├── pom.xml # Fichier de configuration Maven └── README.md # Documentation du projet
+CyberChallenge/ ├── src/ │ 
+                  ├── main/ │ │ 
+                        ├── java/com/cyber/ │ │ │ ├── controller/ # Contrôleurs du backend │ │ │ 
+                           ├── CyberChallengeApplication.java # Point d'entrée de l'application │ │ 
+                              ├── resources/ │ │ │ 
+                                 ├── static/ # Fichiers CSS/JS │ │ │ │ 
+                                    ├── styles.css # Fichier CSS principal │ │ │ 
+                                    ├── templates/ # (Si applicable) Modèles HTML pour Thymeleaf │ │ │ 
+                                 ├── application.properties # Configuration Spring Boot ├── pom.xml # Fichier de configuration Maven 
+                        └── README.md # Documentation du projet
 
 
 ---
@@ -68,7 +37,31 @@ CyberChallenge/ ├── src/ │ ├── main/ │ │ ├── java/com/cy
 
 - **Java 17** ou version ultérieure.
 - **Maven** pour gérer les dépendances.
-- Un IDE comme **Spring Tool Suite (STS)**, **IntelliJ IDEA**, ou **Eclipse**.
+- Un IDE comme **Spring Tool Suite (STS)** ou **Eclipse**.
+
+---
+
+# Cyber Challenge - Spring Boot Microservice
+
+Bienvenue dans **Cyber Challenge**, un projet ludique conçu pour mettre vos compétences en sécurité informatique à l'épreuve. Ce projet utilise **Spring Boot** pour créer une application microservice interactive qui propose des défis de cryptographie et de cybersécurité.
+
+---
+
+## 🚀 Fonctionnalités
+
+- Génération d'un message chiffré.
+- Vérification des soumissions de drapeaux (*flags*).
+- Gestion des indices pour aider les participants.
+- Design attractif avec un style CSS personnalisé.
+- Compatible avec des bases de données comme H2 pour stocker les données utilisateur.
+
+---
+
+## 🛠️ Prérequis
+
+- **Java 17** ou version ultérieure.
+- **Maven** pour gérer les dépendances.
+- Un IDE comme **Spring Tool Suite (STS)** ou **Eclipse**.
 
 ---
 
