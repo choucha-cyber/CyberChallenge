@@ -28,13 +28,31 @@
         </ol>
         <p>Amusez-vous bien et devenez un expert en cryptographie ! 🎉</p>
 
-        <form action="/crypto/encode" method="get">
+        <form action="/encode" method="get">
             <label for="message">Entrez votre message :</label><br>
             <input type="text" id="message" name="message" placeholder="Entrez un message à crypter" required>
             <button type="submit">Crypter</button>
         </form>
 
-        <p>Pour vérifier vos compétences en décryptage, utilisez un outil ou un script pour déchiffrer les messages !</p>
+        <!-- Affichage du message crypté -->
+        <div th:if="${encryptedMessage}">
+            <h2>Message crypté :</h2>
+            <p th:text="${encryptedMessage}"></p>
+        </div>
+
+        <form action="/decode" method="get">
+            <label for="encoded">Entrez le message crypté :</label><br>
+            <input type="text" id="encoded" name="encoded" placeholder="Entrez le message crypté" required>
+            <label for="key">Entrez la clé :</label><br>
+            <input type="text" id="key" name="key" placeholder="Entrez la clé de décryptage" required>
+            <button type="submit">Décrypter</button>
+        </form>
+
+        <!-- Affichage du résultat du décryptage -->
+        <div th:if="${decodeResult}">
+            <h2>Résultat du décryptage :</h2>
+            <p th:text="${decodeResult}"></p>
+        </div>
     </div>
 </body>
 </html>
