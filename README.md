@@ -57,14 +57,6 @@ Bienvenue dans **Cyber Challenge**, un projet ludique conçu pour mettre vos com
 
 ---
 
-## 🛠️ Prérequis
-
-- **Java 17** ou version ultérieure.
-- **Maven** pour gérer les dépendances.
-- Un IDE comme **Spring Tool Suite (STS)** ou **Eclipse**.
-
----
-
 ## ▶️ Lancer l'application
 
 1. Clonez ce dépôt :
@@ -127,12 +119,3 @@ Pour toute question ou suggestion, vous pouvez me contacter à : mimouni.a@hotma
 
 
 ---
-
-### Instructions supplémentaires
-1. Remplacez `<votre-utilisateur>` dans le lien de clone par votre nom d'utilisateur GitHub.
-2. Ajoutez une capture d'écran ou une bannière d'illustration pour rendre la page d'accueil plus attrayante.
-3. Mettez à jour les coordonnées dans la section **Contact**. 
-
-Ce fichier donne un aperçu clair et complet de votre projet pour les futurs contributeurs et utilisateurs. 🚀
-
-
