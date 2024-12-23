@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Crypto Challenge</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenue au Crypto Challenge !</h1>
+        <p>
+            Vous avez intercepté un message crypté, mais il est illisible sous sa forme actuelle.
+            Votre mission est de déchiffrer le message pour révéler un secret. Voici comment jouer :
+        </p>
+        <ol>
+            <li>
+                Entrez une phrase ou un mot dans le champ ci-dessous. Notre système la 
+                cryptera pour vous à l'aide d'un algorithme simple (Base64).
+            </li>
+            <li>
+                Observez attentivement le résultat crypté et essayez de le décoder 
+                pour trouver le mot ou la phrase d'origine.
+            </li>
+            <li>
+                Soumettez votre réponse pour vérifier si elle correspond au texte original. 
+                Si vous réussissez, vous gagnez !
+            </li>
+        </ol>
+        <p>Amusez-vous bien et devenez un expert en cryptographie ! 🎉</p>
+
+        <form action="/crypto/encode" method="get">
+            <label for="message">Entrez votre message :</label><br>
+            <input type="text" id="message" name="message" placeholder="Entrez un message à crypter" required>
+            <button type="submit">Crypter</button>
+        </form>
+
+        <p>Pour vérifier vos compétences en décryptage, utilisez un outil ou un script pour déchiffrer les messages !</p>
+    </div>
+</body>
+</html>
