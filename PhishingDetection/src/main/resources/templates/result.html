@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Analysis Result</title>
+</head>
+<body>
+    <header>
+        <h1>Analysis Result</h1>
+    </header>
+    <main>
+        <p><strong>Input:</strong> <span th:text="${result.input}"></span></p>
+        <p><strong>Message:</strong> <span th:text="${result.message}"></span></p>
+        <p th:if="${result.phishing}">Warning: This input is likely phishing!</p>
+        <p th:if="${!result.phishing}">This input is not phishing, but always stay vigilant.</p>
+        <a href="/">Back to Home</a>
+    </main>
+</body>
+</html>
