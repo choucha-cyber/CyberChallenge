@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Phishing Detection</title>
+</head>
+<body>
+    <header>
+        <h1>Phishing Detection</h1>
+    </header>
+    <main>
+        <form action="/analyze" method="post">
+            <label for="input">Enter the link or email to analyze:</label>
+            <input type="text" id="input" name="input" required>
+            <button type="submit">Analyze</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a148c; /* Purple tone */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    margin: 2rem auto;
+    width: 60%;
+    text-align: center;
+}
+
+button {
+    background-color: #4a148c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #7b1fa2;
+}
