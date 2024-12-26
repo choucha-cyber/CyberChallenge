@@ -1,0 +1,18 @@
+<div th:replace="fragments/header.html"></div>
+
+    <header>
+        <h1>Enigme</h1>
+    </header>
+    <main>
+        <section>
+            <h2 th:text="${enigme.question}"></h2>
+            <form action="/verifier" method="get">
+                <label for="reponse">Votre réponse:</label>
+                <input type="text" id="reponse" name="reponse" required>
+                <input type="hidden" name="attendu" th:value="${enigme.reponse}" />
+                <button type="submit" class="btn">Vérifier</button>
+            </form>
+        </section>
+    </main>
+ 
+	<div th:replace="fragments/footer.html"></div>

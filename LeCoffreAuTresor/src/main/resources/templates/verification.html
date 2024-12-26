@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification de la Réponse - Le Coffre Au Trésor</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Vérification de la Réponse</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Votre réponse est :</h2>
+            <div th:text="${message}"></div>
+            <a href="/enigme/1">Retour à l'énigme</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Le Coffre Au Trésor</p>
+    </footer>
+</body>
+</html>

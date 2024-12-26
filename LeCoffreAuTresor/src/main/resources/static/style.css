@@ -1,0 +1,91 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #9b59b6; /* Violet for the header title */
+}
+
+/* Navigation menu styles */
+nav {
+    background: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #9b59b6; /* Violet background on hover */
+    border-radius: 5px;
+}
+
+/* Button style */
+a.btn {
+    background-color: #9b59b6; /* Violet button */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a.btn:hover {
+    background-color: #8e44ad; /* Darker violet on hover */
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Additional utility styles */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
