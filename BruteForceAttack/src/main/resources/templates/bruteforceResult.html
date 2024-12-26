@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Résultat de l'Attaque</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Résultat de l'attaque par Force Brute</h1>
+
+        <div th:if="${message}">
+            <p th:text="${message}"></p>
+        </div>
+        <a href="/bruteforce">Retourner</a>
+    </div>
+</body>
+</html>
