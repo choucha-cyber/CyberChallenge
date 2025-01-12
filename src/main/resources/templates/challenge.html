@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Cookie Challenge</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Défi : Trouver le mot de passe caché</h1>
+
+    <form action="/verify" method="get">
+        <label for="password">Entrez le mot de passe :</label>
+        <input type="text" id="password" name="hiddenPassword">
+        <button type="submit">Vérifier</button>
+    </form>
+
+    <p th:if="${error}" th:text="${error}" style="color: red;"></p>
+
+    <a href="/">Retour à l'accueil</a>
+</body>
+</html>
